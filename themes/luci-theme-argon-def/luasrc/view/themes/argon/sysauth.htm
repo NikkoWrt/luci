@@ -89,11 +89,6 @@
 		local http = require "luci.sys"
 		local json = require "luci.jsonc"
 		local bg_url = media .. "/img/bg1.jpg"
-		local bing = http.httpget("http://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US")
-		if (bing and bing ~= '') then
-			local bingjson  = json.parse(bing)
-			bg_url = "https://www.bing.com" .. bingjson.images[1].url
-		end
 	%>
 		style="background-image:url(<%=bg_url%>)"
 	<% elseif  (bgcount > 0 and currentBg["type"] ~= "mp4") then %>
