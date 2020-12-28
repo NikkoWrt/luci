@@ -2,7 +2,7 @@
 -- 华工路由群 262939451
 scut = Map(
 	"scutclient",
-	"华南理工大学客户端 设置",
+	"校园网 设置",
 	' <input style="margin: 2px;" class="cbi-button cbi-button-apply" type="button" value="'
 	.."Step 1 : 点此处去设置Wi-Fi"
 	..'" onclick="javascript:location.href=\''

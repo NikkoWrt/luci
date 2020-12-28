@@ -16,7 +16,7 @@ function index()
 	if not uci:get_first("scutclient", "luci", "configured", false) then
 		entry({"admin", "scutclient"},
 			alias("admin", "scutclient", "settings"),
-			"华南理工大学客户端",
+			"校园网",
 			mainorder
 		)
 
@@ -34,7 +34,7 @@ function index()
 	else
 		entry({"admin", "scutclient"},
 			alias("admin", "scutclient", "status"),
-			"华南理工大学客户端",
+			"校园网",
 			mainorder
 		)
 
