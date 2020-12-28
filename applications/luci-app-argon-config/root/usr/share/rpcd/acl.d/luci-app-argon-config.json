@@ -1,6 +1,6 @@
 {
     "luci-argon-config": {
-        "description": "Luci Argon theme config ",
+        "description": "Luci theme config ",
         "read": {
             "uci": [ "argon" ]
         },
